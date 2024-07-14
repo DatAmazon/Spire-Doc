@@ -1,0 +1,6 @@
+@giadinhthoxinh_HostAddress = http://localhost:5087
+
+GET {{giadinhthoxinh_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
