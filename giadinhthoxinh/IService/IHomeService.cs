@@ -5,9 +5,7 @@ namespace giadinhthoxinh.IService
 {
     public interface IHomeService
     {
-        Microsoft.AspNetCore.Mvc.FileStreamResult CreateWord();
-        string CreateMedicalBill(PatientInfor medicalBillInfor);
-        Task<string> PrintMedicalBillToPdf(PatientInfor medicalBillInfor);
-        Task<string> CreateMedicalBill1(MedicalBillInfor medicalBillInfor);
+        Task<string> CreateMedicalBillWord(MedicalBillInfor medicalBillInfor);
+        Task<string> CreateMedicalBillToPdf(MedicalBillInfor medicalBillInfor);
     }
 }
